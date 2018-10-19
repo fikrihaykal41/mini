@@ -15,29 +15,17 @@
   <title>Gelora | Magista</title>
 </head>
 
-<style media="screen">
-  #sekul{
-    color: black !important;
-    text-decoration: none !important;
-  }
-
-  #sekul:hover{
-    color: #22b975 !important;
-    text-decoration: underline !important;
-  }
-</style>
-
 <body>
-  <div class="">
+  <div class="container-fluid">
     <div class="row">
-      <a href="#"><img src="<?= base_url() ?>assets/images/gelora.png" width="100" style="margin-top: 25px; margin-left: 25px"></a>
+      <a href="#"><img src="<?= base_url() ?>assets/images/gelora.png" width="100" style="margin-top: 25px; margin-left: 5px"></a>
       <h1 style="margin-top: 45px; margin-left: 25px; font-family: 'Lobster Two', cursive !important; font-weight:bold; font-size:50px">Gelora | Magista</h1>
     </div>
   </div>
 
 
   <!--Main Content-->
-   <div class="m-content " style="margin-bottom: 10%;">
+   <div class="m-content conteiner-fluid" style="margin-bottom: 10%;">
       <table id="dataTable" class="display text-center" cellspacing="0" width="100%" border="1" style="font-weight: 400">
         <thead>
             <tr>
